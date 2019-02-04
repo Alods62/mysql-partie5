@@ -1,0 +1,14 @@
+
+ex1. SELECT * FROM `webdevelopment`.`languages`; //* pour lister tout 
+
+ex2. SELECT versions FROM `webdevelopment`.`languages` WHERE `language` = 'PHP';
+
+ex3. SELECT versions FROM `webdevelopment`.`languages` WHERE `language` = 'PHP' OR `language` = 'Javascript';
+
+ex4. SELECT * FROM `webdevelopment`.`languages` WHERE `id` = 3 OR `id` = 5 OR `id` = 7;
+
+ex5. SELECT * FROM `webdevelopment`.`languages` WHERE `language` = 'Javascript' LIMIT 2;
+
+ex6. SELECT * FROM `webdevelopment`.`languages` WHERE `language` != 'PHP';
+
+ex7. SELECT * FROM `webdevelopment`.`languages` ORDER BY `language` ASC;
